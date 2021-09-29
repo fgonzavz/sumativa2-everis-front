@@ -1,0 +1,36 @@
+{
+    "productos": [{
+            "id": 1,
+            "nombre": "Zapatillas de Senderismo Terrex AX4",
+            "descripcion": "Hombre Originals",
+            "img": "assets/img/zapatilla1.jpg",
+            "precio": 39990
+
+        },
+        {
+            "id": 2,
+            "nombre": "Zapatillas EQ19 Run",
+            "descripcion": "Hombre Running",
+            "img": "assets/img/zapatilla2.png",
+            "precio": 49990
+
+        },
+        {
+            "id": 3,
+            "nombre": "Zapatillas Run 60s 2.0",
+            "descripcion": "Hombre Diseño Deportivo",
+            "img": "assets/img/zapatilla3.jpg",
+            "precio": 50990
+
+        },
+        {
+            "id": 4,
+            "nombre": "Zapatillas OwnTheGame",
+            "descripcion": "Hombre Basketball",
+            "img": "assets/img/zapatilla4.jpg",
+            "precio": 99990
+
+        }
+
+    ]
+}

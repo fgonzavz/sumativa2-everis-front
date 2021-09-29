@@ -1,0 +1,55 @@
+<app-header></app-header>
+
+<div class="container-fluid">
+
+
+    <div class="row">
+
+        <div class="col-sm-6 abajo" *ngFor="let item of productosHombreService.productos">
+            <div class="card">
+                <img src="{{item.img}}" class="card-img-top" style="width:358px; height:209px;" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">{{item.nombre}}</h5>
+                    <p class="card-text">{{item.descripcion}}</p>
+                    <p style="color: blue; font-size: 20px;" class="card-text">${{item.precio}}</p>
+                    <a href="#" (click)="agregar(item)" class="btn btn-primary separar" routerLinkActive="active" routerLink="/hombre">Agregar al carrito</a>
+                    <a href="#" class="btn btn-primary" routerLinkActive="active" routerLink="/hombre">Mas información</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <app-aside></app-aside>
+</div>
+
+
+<div class="container">
+    <div class="row">
+        <h1>Carrito:</h1>
+
+
+        <table class="table table-striped tamanio-carro">
+            <thead>
+                <tr>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Descripcion</th>
+                    <th scope="col">Precio</th>
+                    <th scope="col">Acción</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let item of carrito">
+                    <th scope="row"> {{ item.nombre }}</th>
+                    <td>{{item.descripcion }}</td>
+                    <td> {{ item.precio }}</td>
+                    <td><button class="btn btn-danger" (click)="eliminar(item)">Eliminar</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+
+        <h2 style="font-size:30px; color: blue;">Total: {{ Total(carrito) }}</h2>
+    </div>
+</div>
+<app-footer></app-footer>

@@ -1,0 +1,86 @@
+<app-header></app-header>
+
+
+
+<div class="container-fluid">
+
+
+    <div class="row">
+
+
+
+        <div class="col-sm-6" *ngFor="let item of productosService.productos">
+            <div class="card">
+                <img src="{{item.img}}" class="card-img-top" style="width:358px; height:179px;" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">{{item.nombre}}</h5>
+                    <p class="card-text">{{item.descripcion}}</p>
+                    <a href="#" class="btn btn-primary" routerLinkActive="active" routerLink="/hombre">Ver Productos</a>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- 
+            <div class="col-sm-4">
+                <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Mujer</h5>
+                        <p class="card-text">Sección para Mujeres que viven del deporte</p>
+                        <a href="#" class="btn btn-primary" routerLinkActive="active" routerLink="/mujer">Ver Productos</a>
+                    </div>
+                </div>
+            </div> -->
+
+
+
+        <!-- <div class="col-sm-6">
+                <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Niño</h5>
+                        <p class="card-text">Sección de deporte para niños y niñas que le guste el deporte </p>
+                        <a href="#" class="btn btn-primary" routerLinkActive="active" routerLink="/ninio">Ver Productos</a>
+                    </div>
+                </div>
+            </div> -->
+
+
+        <!-- 
+            <div class="col-sm-6">
+                <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Productos mas Destacados</h5>
+                        <p class="card-text">productos destacados de la semana</p>
+                        <a href="#" class="btn btn-primary" routerLinkActive="active" routerLink="/destacado">Ver Productos</a>
+                    </div>
+                </div>
+
+            </div> -->
+
+        <!-- <div class="col-sm-6">
+                <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Proximos Productos </h5>
+                        <p class="card-text">Proximos productos que tendremos en la tienda </p>
+                        <a href="#" class="btn btn-primary" routerLinkActive="active" routerLink="/proximamente">Ver Productos</a>
+                    </div>
+                </div>
+
+            </div> -->
+    </div>
+
+
+
+
+
+    <app-aside></app-aside>
+</div>
+
+
+
+<app-footer></app-footer>

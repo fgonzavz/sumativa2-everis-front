@@ -1,0 +1,39 @@
+/* .contenedor-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+*/
+
+
+/* .container {
+    padding-left: 90px;
+} */
+
+.card-body,
+.card {
+    width: 360px;
+}
+
+.card {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 90px;
+    display: flex;
+}
+
+.producto {
+    width: 70%;
+    margin-left: 40px;
+}
+
+.aside {
+    width: 30%;
+    background-color: #F8F9FA;
+}

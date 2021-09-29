@@ -1,0 +1,12 @@
+.margen-carrito {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.invisible {
+    display: none;
+}
+
+.visible {
+    display: block;
+}

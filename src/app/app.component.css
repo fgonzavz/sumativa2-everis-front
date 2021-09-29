@@ -1,0 +1,14 @@
+.container-fluid {
+    padding: 0px;
+    display: flex;
+}
+
+.producto {
+    width: 90%;
+    margin-left: 40px;
+}
+
+.aside {
+    width: 30%;
+    background-color: #F8F9FA;
+}

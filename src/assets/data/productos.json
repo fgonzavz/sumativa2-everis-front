@@ -1,0 +1,38 @@
+{
+    "productos": [{
+            "id": 1,
+            "nombre": "Hombre",
+            "descripcion": "Sección de deporte para hombres que disfruten del deporte y mucho mas",
+            "img": "assets/img/hombre.jpg"
+
+        },
+        {
+            "id": 2,
+            "nombre": "Mujer",
+            "descripcion": "Sección para Mujeres que viven del deporte",
+            "img": "assets/img/mujer.jpg"
+
+        },
+        {
+            "id": 3,
+            "nombre": "Niño",
+            "descripcion": "Sección de deporte para niños que le guste el deporte",
+            "img": "assets/img/ni.jpg"
+
+        },
+        {
+            "id": 4,
+            "nombre": "Productos Destacados",
+            "descripcion": "Productos destacados de la semana",
+            "img": "assets/img/destacado.jpg"
+
+        },
+        {
+            "id": 5,
+            "nombre": "Próximos Productos",
+            "descripcion": "Próximos productos que tendremos en la tienda",
+            "img": "assets/img/proximamente.jpg"
+
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+.card-body,
+.card {
+    width: 360px;
+}
+
+.row {
+    height: auto;
+}
+
+.abajo {
+    height: 200px;
+}
+
+.card {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 90px;
+    display: flex;
+}
+
+.producto {
+    width: 70%;
+    margin-left: 40px;
+}
+
+.aside {
+    width: 30%;
+    background-color: #F8F9FA;
+}
+
+.separar {
+    margin-right: 8px;
+    margin-left: 10px;
+}
+
+.tamanio-carro {
+    width: 100%;
+    margin: 30px auto;
+}
+
+h1,
+h2 {
+    text-align: center;
+}

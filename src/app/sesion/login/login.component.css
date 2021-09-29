@@ -1,0 +1,11 @@
+.form-signin {
+    padding: 10px;
+    text-align: center;
+    width: 50%;
+    margin: 150px auto;
+}
+
+.form-control {
+    width: 60%;
+    margin: 20px auto;
+}
